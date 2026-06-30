@@ -1,0 +1,16 @@
+# Certificados e logs (dados sensiveis, nao commitar)
+/certs/*
+!/certs/.gitkeep
+/logs/*
+!/logs/.gitkeep
+
+# Config local
+*.local
+*.bak
+*.bak.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
